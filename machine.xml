@@ -448,7 +448,7 @@
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" settle-first="true" count="1"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="1" enabled="true" diameter="250"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="2" enabled="true" conversion="Bgr2Gray"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="60" auto="false" invert="false"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="42" auto="false" invert="false"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="4" enabled="true" kernel-size="5"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCirclesHough" name="results" enabled="true" min-distance="50" min-diameter="15" max-diameter="30" dp="1.0" param-1="120.0" param-2="6.0"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
@@ -462,7 +462,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.17799756000000003" center-y="0.25490191999999995" radius="0.02824215094289503" phase-shift="-47.64317203022748" units="Millimeters" peak-error="0.07974608921026244" rms-error="0.05060551283722415"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.19035850166666668" center-y="0.10049018" radius="0.01448791774186581" phase-shift="161.71263564224347" units="Millimeters" peak-error="0.03220956834472056" rms-error="0.018018043461884684"/>
                   </entry>
                </runout-compensation-lookup>
                <offset-threshold-length value="0.5" units="Millimeters"/>
@@ -499,7 +499,7 @@
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" settle-first="true" count="1"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="1" enabled="true" diameter="250"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="2" enabled="true" conversion="Bgr2Gray"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="60" auto="false" invert="false"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="42" auto="false" invert="false"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="4" enabled="true" kernel-size="5"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCirclesHough" name="results" enabled="true" min-distance="50" min-diameter="15" max-diameter="30" dp="1.0" param-1="120.0" param-2="6.0"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
@@ -545,7 +545,7 @@
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="0" enabled="true" settle-first="true" count="1"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="1" enabled="true" diameter="250"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="2" enabled="true" conversion="Bgr2Gray"/>
-                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="60" auto="false" invert="false"/>
+                     <cv-stage class="org.openpnp.vision.pipeline.stages.Threshold" name="3" enabled="true" threshold="40" auto="false" invert="false"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.BlurMedian" name="4" enabled="true" kernel-size="7"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCirclesHough" name="results" enabled="true" min-distance="50" min-diameter="60" max-diameter="75" dp="1.0" param-1="120.0" param-2="10.0"/>
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="5" enabled="true" image-stage-name="0"/>
@@ -559,7 +559,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>NOZ162ddf9bf615a267</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.06427689666666667" center-y="0.27205877999999994" radius="0.08930952300182024" phase-shift="96.06061654932357" units="Millimeters" peak-error="0.024672339005935087" rms-error="0.015688126086713005"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="-0.009888753333333332" center-y="0.10784312" radius="0.08422951920041671" phase-shift="93.72323809303587" units="Millimeters" peak-error="0.044341956093205" rms-error="0.02322158619103498"/>
                   </entry>
                </runout-compensation-lookup>
                <offset-threshold-length value="0.5" units="Millimeters"/>
