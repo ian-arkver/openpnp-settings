@@ -216,8 +216,8 @@
             <acceptable-tolerance value="0.025" units="Millimeters"/>
             <backlash-offset value="0.0" units="Millimeters"/>
             <sneak-up-offset value="0.0" units="Millimeters"/>
-            <soft-limit-low value="-45.0" units="Millimeters"/>
-            <soft-limit-high value="45.0" units="Millimeters"/>
+            <soft-limit-low value="-50.0" units="Millimeters"/>
+            <soft-limit-high value="60.0" units="Millimeters"/>
             <safe-zone-low value="-32.15088960742871" units="Millimeters"/>
             <safe-zone-high value="32.15088960742871" units="Millimeters"/>
             <feedrate-per-second value="100.0" units="Millimeters"/>
@@ -264,27 +264,27 @@
       <heads>
          <head class="org.openpnp.machine.reference.ReferenceHead" id="H1" name="H1" visual-homing-method="ResetToHomeLocation" nozzle-solution="DualCam" nozzle-solutions-multiplier="1">
             <nozzles>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162ddff7b115256c" axis-rotation-id="AXS162b3ddeafc88a60" id="N1" name="N1" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="500" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP16d593efdb51a088" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162ddff7b115256c" axis-rotation-id="AXS162b3ddeafc88a60" id="N1" name="N1" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="50" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP16d593efdb51a088" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP162e047203f179f4</string>
                      <string>TIP162fd65d57fb70e0</string>
                      <string>NT1</string>
                      <string>TIP16d593efdb51a088</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="15.724600337058291" y="76.70188681682293" z="0.0" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="15.657788151376167" y="76.47596015782831" z="0.0" rotation="0.0"/>
                   <manual-nozzle-tip-change-location units="Millimeters" x="399.939" y="534.186" z="0.0" rotation="0.0"/>
                   <safe-z value="0.0" units="Millimeters"/>
                   <vacuum-sense-actuator-name>VAC1</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>VAC1</vacuum-actuator-name>
                </nozzle>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162dfadbdf5274c6" axis-rotation-id="AXS162de0d1579a3074" id="NOZ162ddf9bf615a267" name="N2" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP162e047203f179f4" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162dfadbdf5274c6" axis-rotation-id="AXS162de0d1579a3074" id="NOZ162ddf9bf615a267" name="N2" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="50" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP162e047203f179f4" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP162e047203f179f4</string>
                      <string>TIP162fd65d57fb70e0</string>
                      <string>NT1</string>
                      <string>TIP16d593efdb51a088</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="-14.375399662941675" y="76.70188681682295" z="1.1000000000000085" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="-14.421462722635555" y="76.56723125376276" z="1.1000000000000085" rotation="0.0"/>
                   <manual-nozzle-tip-change-location units="Millimeters" x="399.939" y="534.186" z="0.0" rotation="0.0"/>
                   <safe-z value="0.0" units="Millimeters"/>
                   <vacuum-sense-actuator-name>VAC2</vacuum-sense-actuator-name>
@@ -374,6 +374,7 @@
             <calibration-secondary-fiducial-location units="Millimeters" x="316.5541473455359" y="166.2983342794602" z="-13.099999999999987" rotation="0.0"/>
             <calibration-primary-fiducial-diameter value="0.9561197255379406" units="Millimeters"/>
             <calibration-secondary-fiducial-diameter value="1.0273506241516364" units="Millimeters"/>
+            <calibration-test-object-diameter value="6.214778215996613" units="Millimeters"/>
          </head>
       </heads>
       <signalers/>
@@ -561,7 +562,7 @@
             <camera-primary-z value="-12.18666666666667" units="Millimeters"/>
             <default-z value="-12.18666666666667" units="Millimeters"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
-            <head-offsets units="Millimeters" x="375.14090475719877" y="152.3589361388253" z="-12.18666666666667" rotation="0.0"/>
+            <head-offsets units="Millimeters" x="375.07409257151664" y="152.13300947983066" z="-12.18666666666667" rotation="0.0"/>
             <safe-z value="0.0" units="Millimeters"/>
             <calibration enabled="false">
                <camera-matrix length="9">3.964863915252463E252, 6.465722282808635E170, 1.7893539498135694E161, -2.422247490038927E24, 1.6679905263091663E184, 6.289278770320911E252, 4.786177275618152E180, 8.83364367200044E252, 1.9414443211659E-309</camera-matrix>
@@ -659,6 +660,9 @@
             </command>
             <command type="POSITION_REPORT_REGEX">
                <text><![CDATA[^.*X:(?<X>-?\d+\.\d+) Y:(?<Y>-?\d+\.\d+) Z:(?<Z>-?\d+\.\d+) A:(?<A>-?\d+\.\d+) B:(?<B>-?\d+\.\d+).*]]></text>
+            </command>
+            <command head-mountable-id="ACT16368c03f539277c" type="ACTUATE_BOOLEAN_COMMAND">
+               <text><![CDATA[{True:M800 T1 P2 S1}{False:M800 T1 P2 S0}]]></text>
             </command>
          </driver>
       </drivers>
@@ -938,12 +942,14 @@
             <string>2610dc43dedb9a0506738512da0f237b8422036c</string>
             <string>88cecb197dd4d95cf7e3ba2916536d19493c7968</string>
             <string>2c6634d57aa4395c82713c3479fbd17f5f6aa3e2</string>
+            <string>2232e07f6085c0a347b9d658cf91923b18466e1f</string>
             <string>cda0e6339e8851eedc18f8d263f2af912202584d</string>
             <string>947dd5a3c6e9e7e6b4479fc77c9f30c92e66fa31</string>
             <string>8e384686bf6c403f571463898814a62286489c87</string>
             <string>b998eb0d2d227740f8e7912e83a85c1775b99a20</string>
             <string>aa3560124e224991ea2850049ca5107f7a7b0217</string>
             <string>faa26c2e8878015344f0055805a370cb9a7914e6</string>
+            <string>2033b3e04a15ab463f1ee9b7147478e317717571</string>
             <string>8dd1a68caf541206703b1b0503ce4e339ca9138b</string>
             <string>d0cdf1c68b2d2effd44748eb86ab84e52e562c7c</string>
             <string>6b2530ad7ec28983e1e52de96e5338c3e58d9bdb</string>
