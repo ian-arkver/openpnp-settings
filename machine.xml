@@ -271,7 +271,7 @@
                      <string>NT1</string>
                      <string>TIP16d593efdb51a088</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="15.657788151376167" y="76.47596015782831" z="0.0" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="15.61753484695899" y="76.52712108604267" z="0.0" rotation="0.0"/>
                   <manual-nozzle-tip-change-location units="Millimeters" x="399.939" y="534.186" z="0.0" rotation="0.0"/>
                   <safe-z value="0.0" units="Millimeters"/>
                   <vacuum-sense-actuator-name>VAC1</vacuum-sense-actuator-name>
@@ -284,7 +284,7 @@
                      <string>NT1</string>
                      <string>TIP16d593efdb51a088</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="-14.421462722635555" y="76.56723125376276" z="1.1000000000000085" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="-14.60654492645062" y="76.57132412801991" z="1.1000000000000085" rotation="0.0"/>
                   <manual-nozzle-tip-change-location units="Millimeters" x="399.939" y="534.186" z="0.0" rotation="0.0"/>
                   <safe-z value="0.0" units="Millimeters"/>
                   <vacuum-sense-actuator-name>VAC2</vacuum-sense-actuator-name>
@@ -306,7 +306,7 @@
                </actuator>
             </actuators>
             <cameras>
-               <camera class="org.openpnp.machine.reference.camera.GstreamerCamera" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162b3ddeafb5024b" axis-rotation-id="AXS162b3ddeafb92c64" id="CAM1594906321844" name="Down Camera" looking="Down" auto-visible="false" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="true" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="800" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.4057294768356293" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" pipeline="udpsrc port=9092 caps=&quot;application/x-rtp,media=(string)video,clock-rate=(int)90000,encoding-name=(string)H265&quot; ! rtpjitterbuffer latency=0 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert ! capsfilter caps=video/x-raw">
+               <camera class="org.openpnp.machine.reference.camera.GstreamerCamera" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162b3ddeafb5024b" axis-rotation-id="AXS162b3ddeafb92c64" id="CAM1594906321844" name="Down Camera" looking="Down" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="true" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="800" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.4057294768356293" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" pipeline="udpsrc port=9092 caps=&quot;application/x-rtp,media=(string)video,clock-rate=(int)90000,encoding-name=(string)H265&quot; ! rtpjitterbuffer latency=0 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert ! capsfilter caps=video/x-raw">
                   <units-per-pixel units="Millimeters" x="0.03983832189741419" y="0.03929159286862991" z="-17.1" rotation="0.0"/>
                   <units-per-pixel-secondary units="Millimeters" x="0.03669109371970129" y="0.03677526691015713" z="-13.099999999999987" rotation="0.0"/>
                   <camera-primary-z value="0.0" units="Millimeters"/>
@@ -369,7 +369,7 @@
             <calibration-secondary-fiducial-location units="Millimeters" x="316.5541473455359" y="166.2983342794602" z="-13.099999999999987" rotation="0.0"/>
             <calibration-primary-fiducial-diameter value="0.9561197255379406" units="Millimeters"/>
             <calibration-secondary-fiducial-diameter value="1.0273506241516364" units="Millimeters"/>
-            <calibration-test-object-diameter value="6.214778215996613" units="Millimeters"/>
+            <calibration-test-object-diameter value="5.975748284612128" units="Millimeters"/>
          </head>
       </heads>
       <signalers/>
@@ -552,18 +552,18 @@
          </feeder>
       </feeders>
       <cameras>
-         <camera class="org.openpnp.machine.reference.camera.GstreamerCamera" id="CAM1594902059898" name="Up Camera" looking="Up" auto-visible="false" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="500" settle-timeout-ms="500" settle-threshold="1.1" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.3693649563349778" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" pipeline="udpsrc port=9090 caps=&quot;application/x-rtp,media=(string)video,clock-rate=(int)90000,encoding-name=(string)H265&quot; ! rtpjitterbuffer latency=0 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert ! capsfilter caps=video/x-raw">
-            <units-per-pixel units="Millimeters" x="0.0136581889017064" y="0.013773078218759355" z="0.0" rotation="0.0"/>
-            <camera-primary-z value="-12.18666666666667" units="Millimeters"/>
+         <camera class="org.openpnp.machine.reference.camera.GstreamerCamera" id="CAM1594902059898" name="Up Camera" looking="Up" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="500" settle-timeout-ms="500" settle-threshold="1.1" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.25638663608134005" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" pipeline="udpsrc port=9090 caps=&quot;application/x-rtp,media=(string)video,clock-rate=(int)90000,encoding-name=(string)H265&quot; ! rtpjitterbuffer latency=0 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert ! capsfilter caps=video/x-raw">
+            <units-per-pixel units="Millimeters" x="0.012085428775640483" y="0.012154895909160794" z="0.0" rotation="0.0"/>
+            <camera-primary-z value="-17.0" units="Millimeters"/>
             <default-z value="-12.18666666666667" units="Millimeters"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
-            <head-offsets units="Millimeters" x="375.07409257151664" y="152.13300947983066" z="-12.18666666666667" rotation="0.0"/>
+            <head-offsets units="Millimeters" x="375.0042743022023" y="152.2868083804628" z="-17.0" rotation="0.0"/>
             <safe-z value="0.0" units="Millimeters"/>
             <calibration enabled="false">
                <camera-matrix length="9">3.964863915252463E252, 6.465722282808635E170, 1.7893539498135694E161, -2.422247490038927E24, 1.6679905263091663E184, 6.289278770320911E252, 4.786177275618152E180, 8.83364367200044E252, 1.9414443211659E-309</camera-matrix>
                <distortion-coefficients length="5">0.0, 0.0, 0.0, 0.0, 0.0</distortion-coefficients>
             </calibration>
-            <advanced-calibration enabled="true" overriding-old-transforms-and-distortion-correction-settings="true" valid="true" data-available="true" alpha-percent="100" rotation-error-z="-0.2811246082675643" rotation-error-y="-0.053474686575803" rotation-error-x="-1.3659874969832597" rms-error="3.138160762515095" desired-radial-lines-per-test-pattern="32" test-pattern-fill-fraction="0.9" walking-loop-gain="0.5" approximate-camera-f="4272.383793654015" mirrored="-1.0" apparent-motion-direction="1.0" width-fov="19.786198566575514" height-fov="19.998222889483127" virtual-width-fov="20.267153863517727" virtual-height-fov="22.854023438903706">
+            <advanced-calibration enabled="true" overriding-old-transforms-and-distortion-correction-settings="false" valid="true" data-available="true" alpha-percent="100" rotation-error-z="-0.2811246082675643" rotation-error-y="-0.053474686575803" rotation-error-x="-1.3659874969832597" rms-error="3.138160762515095" desired-radial-lines-per-test-pattern="32" test-pattern-fill-fraction="0.9" walking-loop-gain="0.5" approximate-camera-f="4272.383793654015" mirrored="-1.0" apparent-motion-direction="1.0" width-fov="19.786198566575514" height-fov="19.998222889483127" virtual-width-fov="20.267153863517727" virtual-height-fov="22.854023438903706">
                <camera-matrix length="9">3096.2621525020645, 0.0, 539.5, 0.0, 3062.7698529427225, 539.5, 0.0, 0.0, 1.0</camera-matrix>
                <distortion-coefficients length="5">-0.7643749746211911, 24.862292542466587, -0.014148463140675855, -0.00434228768621057, -247.8384460735937</distortion-coefficients>
                <pipeline>
@@ -658,6 +658,12 @@
             </command>
             <command head-mountable-id="ACT16368c03f539277c" type="ACTUATE_BOOLEAN_COMMAND">
                <text><![CDATA[{True:M800 T1 P2 S1}{False:M800 T1 P2 S0}]]></text>
+            </command>
+            <command head-mountable-id="ACT16368c03f539277c" type="ACTUATOR_READ_COMMAND">
+               <text><![CDATA[M105 P1]]></text>
+            </command>
+            <command head-mountable-id="ACT16368c03f539277c" type="ACTUATOR_READ_REGEX">
+               <text><![CDATA[^Pressure.*=(?<Value>\d+)(\.\d+)?]]></text>
             </command>
          </driver>
       </drivers>
@@ -891,7 +897,7 @@
                <minimum-detail-size value="0.1" units="Millimeters"/>
                <offset-threshold-length value="0.5" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
-               <calibration-tip-diameter value="0.8468077119057967" units="Millimeters"/>
+               <calibration-tip-diameter value="0.9184925869486767" units="Millimeters"/>
             </calibration>
             <method-part-on>None</method-part-on>
             <part-on-check-after-pick>true</part-on-check-after-pick>
@@ -943,8 +949,8 @@
             <string>8e384686bf6c403f571463898814a62286489c87</string>
             <string>b998eb0d2d227740f8e7912e83a85c1775b99a20</string>
             <string>aa3560124e224991ea2850049ca5107f7a7b0217</string>
-            <string>faa26c2e8878015344f0055805a370cb9a7914e6</string>
             <string>2033b3e04a15ab463f1ee9b7147478e317717571</string>
+            <string>faa26c2e8878015344f0055805a370cb9a7914e6</string>
             <string>8dd1a68caf541206703b1b0503ce4e339ca9138b</string>
             <string>d0cdf1c68b2d2effd44748eb86ab84e52e562c7c</string>
             <string>6b2530ad7ec28983e1e52de96e5338c3e58d9bdb</string>
