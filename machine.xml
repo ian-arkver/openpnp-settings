@@ -264,7 +264,7 @@
       <heads>
          <head class="org.openpnp.machine.reference.ReferenceHead" id="H1" name="H1" visual-homing-method="ResetToHomeLocation" nozzle-solution="DualCam" nozzle-solutions-multiplier="1">
             <nozzles>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162ddff7b115256c" axis-rotation-id="AXS162b3ddeafc88a60" id="N1" name="N1" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="50" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP16d593efdb51a088" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162ddff7b115256c" axis-rotation-id="AXS162b3ddeafc88a60" id="N1" name="N1" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="50" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP162e047203f179f4" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP162e047203f179f4</string>
                      <string>TIP162fd65d57fb70e0</string>
@@ -277,7 +277,7 @@
                   <vacuum-sense-actuator-name>VAC1</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>VAC1</vacuum-actuator-name>
                </nozzle>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162dfadbdf5274c6" axis-rotation-id="AXS162de0d1579a3074" id="NOZ162ddf9bf615a267" name="N2" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="50" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP162e047203f179f4" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS162b3ddeaf942a5d" axis-Y-id="AXS162b3ddeafbc9228" axis-Z-id="AXS162dfadbdf5274c6" axis-rotation-id="AXS162de0d1579a3074" id="NOZ162ddf9bf615a267" name="N2" rotation-mode="AbsolutePartAngle" pick-dwell-milliseconds="50" place-dwell-milliseconds="0" current-nozzle-tip-id="TIP16d593efdb51a088" changer-enabled="false" nozzle-tip-changed-on-manual-feed="false" enable-dynamic-safe-z="true" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP162e047203f179f4</string>
                      <string>TIP162fd65d57fb70e0</string>
@@ -552,7 +552,7 @@
          </feeder>
       </feeders>
       <cameras>
-         <camera class="org.openpnp.machine.reference.camera.GstreamerCamera" id="CAM1594902059898" name="Up Camera" looking="Up" auto-visible="false" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="500" settle-timeout-ms="500" settle-threshold="1.1" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.25686438521790317" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" pipeline="udpsrc port=9090 caps=&quot;application/x-rtp,media=(string)video,clock-rate=(int)90000,encoding-name=(string)H265&quot; ! rtpjitterbuffer latency=0 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert ! capsfilter caps=video/x-raw">
+         <camera class="org.openpnp.machine.reference.camera.GstreamerCamera" id="CAM1594902059898" name="Up Camera" looking="Up" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="500" settle-timeout-ms="500" settle-threshold="1.1" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="5.0" suspend-preview-in-tasks="true" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.25686438521790317" flip-x="false" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" pipeline="udpsrc port=9090 caps=&quot;application/x-rtp,media=(string)video,clock-rate=(int)90000,encoding-name=(string)H265&quot; ! rtpjitterbuffer latency=0 ! rtph265depay ! h265parse ! avdec_h265 ! videoconvert ! capsfilter caps=video/x-raw">
             <units-per-pixel units="Millimeters" x="0.01311100180530757" y="0.013108467592804608" z="0.0" rotation="0.0"/>
             <camera-primary-z value="-13.946666666666669" units="Millimeters"/>
             <default-z value="-13.946666666666669" units="Millimeters"/>
@@ -934,7 +934,7 @@
       <home-after-enabled>true</home-after-enabled>
       <park-after-homed>false</park-after-homed>
       <unsafe-Z-roaming-distance value="10.0" units="Millimeters"/>
-      <solutions show-indicator="true" target-milestone="Calibration">
+      <solutions show-indicator="true" target-milestone="Production">
          <dismissed-solutions class="java.util.HashSet">
             <string>3413d7f3da15d15e0bf98698019ccac94d9b9f2c</string>
             <string>76f112be7a973877538c01aba830f6cb1ff6b474</string>
